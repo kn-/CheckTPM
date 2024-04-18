@@ -3,7 +3,7 @@
 # Modify $serverAddress and $servPort to suit your needs.
 # Written by Dan Weaver with Logipex LLC
 # License https://creativecommons.org/licenses/by-nc/4.0/, 4/18/2024
-# Contact dan@logipex.net for commercial use licensing.
+# Contact dan at logipex.net for commercial use licensing.
 function Check-TPM {
     $tpm = Get-WmiObject -Namespace "root\CIMV2\Security\MicrosoftTpm" -Class Win32_Tpm
     if ($tpm) {
