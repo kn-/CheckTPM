@@ -4,7 +4,7 @@
 # Modify server IP listen address and port as needed.
 # Written by Dan Weaver with Logipex LLC
 # License https://creativecommons.org/licenses/by-nc/4.0/, 4/18/2024
-# Contact dan@logipex.net for commercial use licensing.
+# Contact dan at logipex.net for commercial use licensing.
 # Start listening for connections
 $listener = [System.Net.Sockets.TcpListener]::new([System.Net.IPAddress]::Parse("0.0.0.0"), 10000)
 $listener.Start()
